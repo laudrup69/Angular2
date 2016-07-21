@@ -5,9 +5,15 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "module": "commonjs",
-        "noImplicitAny": false
+        "noImplicitAny": false,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "outDir": "built",
+        "rootDir": "."
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "typings/main",
+        "typings/main.d.ts"
     ]
 }
