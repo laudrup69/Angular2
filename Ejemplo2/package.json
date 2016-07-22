@@ -7,8 +7,8 @@
     "postinstall": "npm run typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "lite":"lite-server",
-    "app":"concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "app": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
     "typings": "typings"
   },
   "author": "",
